@@ -2,9 +2,9 @@
   "name": "mocking_bot",
   "version": "1.0.0",
   "description": "You send a message, he will mOcK iT.",
-  "main": "src/bot.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "test": "nodemon bot.js"
   },
   "keywords": [
     "bot",
