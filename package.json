@@ -4,7 +4,7 @@
   "description": "You send a message, he will mOcK iT.",
   "main": "src/bot.js",
   "scripts": {
-    "test": "node ."
+    "test": "nodemon server.js"
   },
   "keywords": [
     "bot",
