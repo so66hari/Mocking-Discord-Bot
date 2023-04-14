@@ -11,6 +11,12 @@ const client = new Client({
     ],
 });
 
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.listen(port);
+
 client.on('messageCreate', (msg) => {
     let input = msg.content;
     if(input.startsWith(prefix)) {
