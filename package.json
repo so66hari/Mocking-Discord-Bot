@@ -1,0 +1,16 @@
+{
+  "name": "mocking_bot",
+  "version": "1.0.0",
+  "description": "You send a message, he will mOcK iT.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [
+    "bot",
+    "mocking",
+    "discord"
+  ],
+  "author": "caetto",
+  "license": "ISC"
+}
